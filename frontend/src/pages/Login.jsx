@@ -7,7 +7,6 @@ function Login() {
   const { dispatch } = useContext(AuthContext);
 
   const handleLogin = async ({ email, password }) => {
-    console.log(email, password);
     try {
       const res = await fetch("http://localhost:5000/user/login", {
         method: "POST",

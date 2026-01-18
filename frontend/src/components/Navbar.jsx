@@ -7,7 +7,7 @@ function Navbar() {
     dispatch({ type: "LOGOUT" });
   };
   return (
-    <nav className=" top-0 w-full shadow-md z-50 bg-blue-400 p-4 text-white">
+    <nav className="fixed top-0 w-full shadow-md z-50 bg-blue-400 p-4 text-white">
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-2xl font-bold">Task Manager</h1>
         <ul className="flex space-x-4 text-lg">
